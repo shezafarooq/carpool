@@ -1,0 +1,32 @@
+.auth-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-body{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card, .auth-side{
+    height: 100%;
+}
+
+.auth-card{
+    width: 60%;
+}
+
+.auth-side{
+    width: 40%;
+    font-size: 1.4rem;
+    flex-direction: column;
+    font-weight: bolder;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

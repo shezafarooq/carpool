@@ -1,0 +1,39 @@
+.jumbotron{
+    /* background-color: #8ecae6; */
+}
+
+.display-4{
+    font-weight: bold;
+    color: #fb8500;
+}
+
+.lead{
+    color: #FFB703;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.hero-btn{
+    width: 160px;
+    font-size: 1.4rem;
+}
+
+.btn-main{
+    background-color: #FFB703;
+    border: none;
+    color: white;
+}
+
+.btn-main:hover{
+    background-color: #fb8500;
+    color: white;
+}
+
+.btn-primary{
+    background-color: #8ecae6;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #219ebc;
+}

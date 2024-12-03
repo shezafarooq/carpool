@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
+.bodyProfile{
+    /* background: linear-gradient(to top ,rgb(245, 147, 147) 1%, white 99%); */
+    background: linear-gradient(to top ,#8ECAE6 1%, white 99%);
+    height: 100vh;
+    vertical-align: middle;
+    display:inline; 
+   font-family: 'Calibri', sans-serif !important;
+    font-size: 20px;    
+}
+
+#profileImage{
+    height: 80%;
+    width: 80%;
+    margin-bottom: 100px;
+}
+.Profilecard{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    max-width: 100%;
+    /* max-width:680px; */
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width:768px){
+    .Profilecard{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px ;
+        width: 80%;
+    }
+}
+.upperProfile{
+    padding: 6vh 15vh 6vh 15vh;  
+}
+.lowerProfile{
+    padding: 4vh 0 6vh;
+    text-align: center;
+}
+
+.heading1{
+    color: #FFB703;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.heading1 p{
+    margin-bottom: 0;
+}
+
+.heading2{
+    color: #FB8500;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#profilehr{
+    margin: 0;
+    border-top: 2px solid rgba( 0, 0, 0, .1);
+}
+
+#trackRide{
+    width: 50%;
+    background-color: #8ECAE6;
+     border-color: #8ECAE6;
+    /* border-color: rgb(255, 38, 0); */
+    color: white;
+    padding: 1.5vh 0;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#trackRide:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    background-color: #219EBC;
+    -webkit-box-shadow: none;
+    /* -webkit-user-select: none; */
+    transition: none; 
+}
+#trackRide:hover{
+    color: white;
+    background-color: #219EBC;
+
+}
+/* input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:transparent; }  */
+
+/* hr.new1 {
+    border-top: 2px dashed #fff;
+    margin: 0.4rem 0;
+} */
+
+#confirm, #notconfirm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    /* width: 500px; */
+}
+#rateRider{
+    margin: auto;
+}
+
+#rating{
+    margin-left: 30px;
+}
+
+/* #welcome{
+    font-size:48px;
+    font-weight:400; 
+    margin: 2;
+} */
